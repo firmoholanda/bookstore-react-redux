@@ -1,10 +1,18 @@
 import React from 'react';
 
+import Jumbotron from './Jumbotron';
+import BooksList from '../containers/BooksList';
+import BooksForm from '../containers/BooksForm';
+import Footer from './Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      bookstore-react-redux
+    <div className="app">
+      <Jumbotron />
+      <BooksList />
+      <BooksForm />
+      <Footer />
     </div>
   );
 }
