@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import Book from '../components/Book';
 
 const BooksList = ({ books }) => (
-  <table>
+  <table className="book-list">
     <thead>
       <tr>
         <th>id:</th>

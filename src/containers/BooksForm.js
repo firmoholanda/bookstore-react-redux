@@ -3,7 +3,7 @@ import React from 'react';
 const BooksForm = () => {
   const categories = ['action', 'biography', 'history', 'horror', 'kids', 'learning', 'sci-fi'];
   return (
-    <form>
+    <form className="book-form">
       <input type="text" name="book" placeholder="new book" />
       <select>
         {categories.map((category) => (
