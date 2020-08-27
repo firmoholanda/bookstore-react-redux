@@ -6,15 +6,13 @@ import BooksForm from '../containers/BooksForm';
 import Footer from './Footer';
 
 
-function App() {
-  return (
-    <div className="app">
-      <Jumbotron />
-      <BooksList />
-      <BooksForm />
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <div className="app">
+    <Jumbotron />
+    <BooksList />
+    <BooksForm />
+    <Footer />
+  </div>
+);
 
 export default App;
