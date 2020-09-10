@@ -1,6 +1,6 @@
 # 📃 bookstore-react-redux
 
-
+This is a bookstore app, created with react and redux. This project consists in build the front-end of an application that will help users to organize and manage their bookstore.
 
 ## 📡 technologies used
 
